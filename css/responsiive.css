@@ -1,0 +1,184 @@
+@media only screen and (max-width:768px) {
+     .navbar-nav li {
+          width: 100%;
+          float: left;
+          padding: 10px 0px 10px 10px;
+     }
+}
+
+
+@media only screen and (max-width:768px) {
+     .banner-left h1 {
+          margin-top: 80px;
+          font-size: 18px;
+          font-weight: 600;
+     }
+
+     .banner-left h2 {
+          font-size: 40px;
+          margin: 0px;
+     }
+
+     .banner-left h3 {
+          font-size: 22px;
+     }
+
+     .banner-left .head-bottom {
+          height: 2px;
+          width: 90px;
+     }
+}
+
+
+@media only screen and (max-width:768px) {
+     .heading h2 {
+          bottom: 40px;
+          font-size: 18px;
+     }
+
+     .heading-border {
+          height: 2px;
+          width: 20px;
+          margin-bottom: 6px;
+          margin-top: 0px;
+     }
+}
+
+@media only screen and (max-width:768px) {
+     .service-hex {
+          left: 38%;
+     }
+}
+
+
+@media only screen and (max-width:768px) {
+     .portfolio-section h3 {
+          font-size: 16px;
+     }
+}
+
+
+@media only screen and (max-width:768px) {
+     .contact-left p {
+          padding-left: 10px;
+          margin-top: 11px;
+     }
+
+
+}
+
+
+@media only screen  and (max-width:768px) and (max-width:1300px){
+     
+     .heading {
+          margin-bottom: 50px;
+      }
+
+      .service{
+          height: 242px;
+      }
+
+      .service-inner h3{
+          font-size: 22px;
+      }
+
+      section#about .row{
+          align-items: unset;
+      }
+
+      .about-info .about-work h4{  
+          margin-left: 0;
+     }
+
+     .right-points h5 {
+          font-size: 14px;
+          padding: 5px;   
+        }
+
+
+
+        .image-float {
+          width: 30%;
+      }
+
+      .image-float img {
+          width: 100%;
+      }
+
+
+      .contact-image {
+          margin-bottom: 20px;
+          text-align: center;
+      }
+
+      .contact-image img {
+         width: 70%;
+      }
+}
+
+
+
+@media only screen and (max-width:767px){
+
+     .service-inner h3 {
+          font-size: 18px;
+      }
+
+      .heading {
+          margin-bottom:20px;
+      }
+
+
+      .service-inner {
+          padding: 30px;
+      }
+
+
+      .row.about-work {
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          gap: 10px;
+      }
+
+      .about-info .about-work h4 {
+          margin-left: 2px;
+      }
+
+      section#home .row {
+          flex-direction: column-reverse;
+      }
+
+
+      .service {
+          height:225px;
+      }
+
+      .service-inner h5 {
+          color: #eee;
+          font-size: 16px;
+      }
+
+      .skill-text h3 {
+          font-size: 11px;
+      }
+
+      .left-mage {
+          margin-bottom: 20px;
+          text-align: center;
+      }
+
+      .contact-head {
+          grid-template-columns: repeat(1,1fr);
+      }
+
+
+      .contact-image {
+          margin-bottom: 20px;
+      }
+
+      .footer-main p{
+          font-size: 12px;
+      }
+
+}
+
