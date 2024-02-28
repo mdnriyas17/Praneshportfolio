@@ -74,6 +74,10 @@
           margin-bottom: 50px;
       }
 
+      .banner-img img {
+        margin-left: 30px;
+    }
+
       .service{
           height: 242px;
       }
@@ -119,6 +123,15 @@
 
 
 @media only screen and (max-width:767px){
+
+    .banner-img img {
+        margin-left: 23px;
+    }
+
+    #preloader {
+        background-size: 40%;
+    }
+ 
 
      .service-inner h3 {
           font-size: 18px;
@@ -180,5 +193,39 @@
           font-size: 12px;
       }
 
+      .right-points h5 {
+        padding: 11px;
+    }
 }
 
+@media only screen and (max-width:1024px){
+
+    .about-info .about-work h4 {
+        font-size: 15px;
+    }
+
+    .skill-text h3 {
+        font-size: 11px;
+    }
+
+}
+
+@media only screen and (max-width:320px){
+
+.about-info .about-work h4 {
+    font-size: 13px;
+}
+
+
+
+}
+
+@media only screen and (max-width:375px){
+
+    .about-info .about-work h4 {
+        margin-left: 4px;
+    }
+
+
+
+}

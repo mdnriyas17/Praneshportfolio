@@ -50,7 +50,7 @@
           ></a>
         </li>
         <li class="menu-item">
-          <a href="Tel:6381058664" title="Call Me"
+          <a href="tel:+916381058664" title="Call Me"
             ><i class="fas fa-phone"></i
           ></a>
         </li>
@@ -316,7 +316,7 @@
                 <div class="service-inner">
                   <h1>02</h1>
                   <h3>Blazon Technology</h3>
-                  <h5>Web Developer Intern | Nov 2024 - Feb 2024</h5>
+                  <h5>Web Developer Intern | Nov 2023 - Feb 2024</h5>
                 </div>
                 <div class="image-float">
                   <img src="./images/bla.png" alt="img" />
@@ -592,15 +592,15 @@
 
                 <div class="cnt-box">
                   <i class="fas fa-phone"></i>
-                  <h4>Contact Me</h4>
-                  <p><a href="Tel:6381058664" title="Call Me">6381058664</a></p>
+                  <h4>Contact me</h4>
+                  <p><a href="tel:+916381058664" title="Call Me">6381058664</a></p>
                 </div>
               </div>
 
               <div class="contact-head">
                 <div class="cnt-box">
                   <i class="fas fa-envelope"></i>
-                  <h4>Mail Me</h4>
+                  <h4>Mail me</h4>
                   <p>
                     <a href="mailto:vijaypraneeshap16@gmail.com" title="Mail Me"
                       >vijaypraneeshap16@gmal.com</a
@@ -630,7 +630,7 @@
               <div class="footer-icons">
                 <ul>
                   <li class="menu-item">
-                    <a href="Tel:6381058664" title="Call Me"
+                    <a href="tel:+916381058664" title="Call Me"
                       ><i class="fas fa-phone"></i
                     ></a>
                   </li>
@@ -691,47 +691,49 @@
       referrerpolicy="no-referrer"
     ></script>
     <script>
-      $(document).ready(function () {
-        $(".owl-carousel").owlCarousel({
-          Loop: true,
-          autoplay: true,
-          margin: 20,
-          Padding: 0,
-          touchDrag: true,
-          mouseDrag: true,
-          nav: false,
-          dots: false,
-          smartspeed: 4000,
-          dotsData: true,
-          autoplayTimeout: 4000,
-          autoplayspeed: 4000,
-          navText: [
-            "<i class='fa-solid fa-arrow-left-long'></i>",
-            "<i class='fa-solid fa-arrow-right-long'></i>",
-          ],
-          responsive: {
-            0: {
-              items: 1,
-            },
+  
+$(document).ready(function () {
+  var owl = $('.owl-carousel')
+  owl.owlCarousel({
+    autoplay: true,
+    loop: true,
+    margin: 10,
+    padding: 0,
+    touchDrag: true,
+    mouseDrag: true,
+    nav: false,
+    dots: false,
+    smartSpeed: 2000,
+    dotsData: true,
+    navText: ["<i class='fa-solid fa-arrow-left-long'></i>", "<i class='fa-solid fa-arrow-right-long'></i>"],
+    navContainer: '.test-nav',
+    responsive: {
+      0: {
+        items: 1,
 
-            768: {
-              items: 3,
-            },
+      },
+      768: {
+        items: 3,
+      },
+      1170: {
+        items: 4,
+      }
+    }
+  })
 
-            1170: {
-              items: 4,
-            },
-          },
-        });
+  // Pause carousel on mouseenter
+  $('.owl-carousel').mouseenter(function () {
+    owl.trigger('stop.owl.autoplay')
+  })
 
-        $(".owl-carousel").mouseenter(function () {
-          owl.trigger("stop.owl.autoplay");
-        });
+  // Resume carousel on mouseleave
+  $('.owl-carousel').mouseleave(function () {
+    owl.trigger('play.owl.autoplay')
+  })
+});
 
-        $(".owl-carousel").mouseleave(function () {
-          owl.trigger("play.owl.autoplay");
-        });
-      });
+
+      // --------
 
       $(document).ready(function () {
         $(".menu-toggle-btn").click(function () {

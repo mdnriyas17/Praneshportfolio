@@ -60,8 +60,10 @@ p {
 
 .navbar-toggler {
      box-shadow: none !important;
-     border: 1px solid #b3b3b3;
+     border: 1px solid #eee;
      padding: 6px 10px;
+     background: #f3aa1c;
+     border-radius: 0;
 }
 
 .main-section {
@@ -876,7 +878,7 @@ transition: transform 4s ease-in-out;
 
  section.md-footer {
      background-color: rgb(61 60 58);
-     padding: 60px 0px;
+     padding: 30px 0px;
  }
 
  .footer-main {
@@ -932,4 +934,23 @@ transition: transform 4s ease-in-out;
      position: fixed;
      z-index: 9999999999;
      background-position: center;
+ }
+
+
+
+
+
+
+
+
+
+
+ .test-nav {
+     display: flex;
+     align-items: center;
+     gap: 20px;
+     position: absolute;
+     bottom: 0;
+     right: 0;
+     z-index: 99;
  }
